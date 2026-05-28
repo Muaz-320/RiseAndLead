@@ -1,85 +1,15 @@
-import { Course, Staff, PortfolioItem, Testimonial, FAQ } from './types.ts';
+import { PortfolioItem, Testimonial, FAQ } from './types.ts';
 
-export const COURSES: Course[] = [
-  {
-    id: '1',
-    title: 'Modern Leadership Dynamics',
-    category: 'Leadership',
-    description: 'Master the art of leading diverse teams in the digital age with strategic emotional intelligence and data-driven empathy.',
-    duration: '6 Weeks',
-    instructor: 'Dr. Sarah Chen',
-    image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800&auto=format&fit=crop'
-  },
-  {
-    id: '2',
-    title: 'Full-Stack React Architecture',
-    category: 'Programming',
-    description: 'Deep dive into scalable frontend systems, custom hooks, and modern state management patterns using state-of-the-art tooling.',
-    duration: '8 Weeks',
-    instructor: 'Marcus Thorne',
-    image: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=800&auto=format&fit=crop'
-  },
-  {
-    id: '3',
-    title: 'Professional Presence & Etiquette',
-    category: 'Self Grooming',
-    description: 'Cultivate a commanding professional image through advanced communication, non-verbal cues, and grooming techniques.',
-    duration: '4 Weeks',
-    instructor: 'Elena Moretti',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop'
-  },
-  {
-    id: '4',
-    title: 'The Art of Self-Awareness',
-    category: 'Self Awareness',
-    description: 'Unlock your true potential by understanding your cognitive biases, emotional triggers, and core values.',
-    duration: '5 Weeks',
-    instructor: 'Julian Vane',
-    image: 'https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?q=80&w=800&auto=format&fit=crop'
-  },
-  {
-    id: '5',
-    title: 'Python for Data Analysis',
-    category: 'Programming',
-    description: 'Learn to manipulate, analyze, and visualize complex datasets using NumPy, Pandas, and professional visualization libraries.',
-    duration: '7 Weeks',
-    instructor: 'Aleksei Volkov',
-    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=800&auto=format&fit=crop'
-  },
-  {
-    id: '6',
-    title: 'Resilient Decision Making',
-    category: 'Leadership',
-    description: 'Develop the psychological stamina required to make critical decisions under extreme pressure and uncertainty.',
-    duration: '4 Weeks',
-    instructor: 'Dr. Sarah Chen',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&auto=format&fit=crop'
-  }
-];
-
-export const STAFF: Staff[] = [
-  {
-    id: '1',
-    name: 'Dr. Sarah Chen',
-    role: 'Head of Leadership',
-    bio: 'Former Fortune 500 executive with over 20 years of experience in organizational psychology and strategic growth.',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop'
-  },
-  {
-    id: '2',
-    name: 'Marcus Thorne',
-    role: 'Lead Technical Instructor',
-    bio: 'Software architect and open-source contributor specializing in distributed systems and modern performance patterns.',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop'
-  },
-  {
-    id: '3',
-    name: 'Elena Moretti',
-    role: 'Grooming & Style Consultant',
-    bio: 'International stylist who has worked with global leaders, C-suite executives, and media personalities for two decades.',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop'
-  }
-];
+export const BRAND_NAME = 'Rise & Lead 360';
+export const BRAND_TAGLINE = 'Learn Today. Build Tomorrow.';
+export const BRAND_TAGLINE_PARTS = ['Learn Today', 'Build Tomorrow'] as const;
+export const BRAND_MISSION =
+  'Just listen to your soul and unlock your true potential with Rise & Lead 360 — where passion meets purpose, skills meet growth, and leaders are empowered to rise beyond limits.';
+export const BRAND_HERO_HEADLINE = 'Just listen to your soul and unlock your true potential.';
+export const BRAND_HERO_SUBLINE =
+  'Where passion meets purpose, skills meet growth, and leaders are empowered to rise beyond limits.';
+export const BRAND_CAREERS =
+  'Whether you dream of becoming a Web Developer, Mobile App Developer, Freelancer, or Software Engineer — Rise & Lead 360 provides practical, career-focused training designed for the modern tech industry.';
 
 export const PORTFOLIO: PortfolioItem[] = [
   {
@@ -136,7 +66,7 @@ export const FAQS: FAQ[] = [
   {
     id: '1',
     question: 'Are the certificates internationally recognized?',
-    answer: 'Yes, EliteLearn certificates are recognized by leading global corporations and can be integrated directly into your LinkedIn profile.'
+    answer: 'Yes, Rise & Lead 360 certificates are recognized by leading employers and can be integrated directly into your LinkedIn profile.'
   },
   {
     id: '2',

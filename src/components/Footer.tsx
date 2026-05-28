@@ -1,4 +1,5 @@
 import { BookOpen, Instagram, Twitter, Linkedin, Github } from 'lucide-react';
+import BrandName from './BrandName';
 
 export default function Footer() {
   return (
@@ -9,10 +10,10 @@ export default function Footer() {
             <div className="bg-white p-2 rounded-lg">
               <BookOpen className="w-5 h-5 text-black" />
             </div>
-            <span className="text-xl font-bold tracking-tight">EliteLearn</span>
+            <BrandName className="text-xl text-white" />
           </div>
           <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-            Empowering modern professionals with elite training in leadership, programming, and self-mastery.
+            Professional tech training for ambitious learners — from first skill to industry-ready confidence.
           </p>
           <div className="flex gap-4">
             <Instagram className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
@@ -27,7 +28,7 @@ export default function Footer() {
           <ul className="space-y-4 text-sm text-gray-400">
             <li><a href="#courses" className="hover:text-white transition-colors">Courses</a></li>
             <li><a href="#portfolio" className="hover:text-white transition-colors">Portfolio</a></li>
-            <li><a href="#staff" className="hover:text-white transition-colors">Staff</a></li>
+            <li><a href="#team" className="hover:text-white transition-colors">Team</a></li>
             <li><a href="#about" className="hover:text-white transition-colors">About Us</a></li>
           </ul>
         </div>
@@ -63,7 +64,7 @@ export default function Footer() {
           Built with Elegance in 2026
         </p>
         <p className="text-xs text-gray-500">
-          © 2026 EliteLearn Academy. All rights reserved.
+          © 2026 Rise & Lead 360. All rights reserved.
         </p>
       </div>
     </footer>

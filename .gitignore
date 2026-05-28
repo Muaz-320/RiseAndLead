@@ -32,3 +32,6 @@ Desktop.ini
 
 # Archives (local exports)
 *.zip
+
+# Raw PDF image extraction (curated copies live in src/assets/haseeb/)
+src/assets/haseeb-profile/

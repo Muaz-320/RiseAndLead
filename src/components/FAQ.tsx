@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { FAQS } from '../constants.ts';
+import { BRAND_NAME, FAQS } from '../constants.ts';
 import { ArrowRight, HelpCircle, MessageCircle, Sparkles } from 'lucide-react';
 
 export default function FAQ() {
@@ -35,7 +35,7 @@ export default function FAQ() {
           </div>
           <div className="lg:col-span-4 lg:pb-4">
             <p className="text-gray-400 font-medium leading-relaxed max-w-xs">
-              Every detail of your journey with EliteLearn, explained with precision and transparency.
+              Every detail of your journey with {BRAND_NAME}, explained with clarity and transparency.
             </p>
           </div>
         </div>
@@ -109,7 +109,7 @@ export default function FAQ() {
                 <div className="space-y-4">
                   <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-orange-500 text-white text-[10px] font-bold uppercase tracking-widest">
                     <Sparkles className="w-3 h-3" />
-                    Elite Insight
+                    Expert Insight
                   </div>
                   <h3 className="text-4xl md:text-5xl font-bold tracking-tighter text-black leading-none">
                     {activeFaq.question}

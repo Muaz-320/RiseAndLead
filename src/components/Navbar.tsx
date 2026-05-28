@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, BookOpen } from 'lucide-react';
 import { cn } from '../lib/utils';
+import BrandName from './BrandName';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -18,7 +19,7 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Courses', href: '#courses' },
     { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Staff', href: '#staff' },
+    { name: 'Team', href: '#team' },
     { name: 'About', href: '#about' },
   ];
 
@@ -38,7 +39,7 @@ export default function Navbar() {
           <div className="bg-black p-2 rounded-lg">
             <BookOpen className="w-5 h-5 text-white" />
           </div>
-          <span className="text-xl font-bold tracking-tight text-black">EliteLearn</span>
+          <BrandName className="text-xl text-black" />
         </motion.div>
 
         {/* Desktop Nav */}

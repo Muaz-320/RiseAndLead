@@ -14,7 +14,7 @@ export default function Newsletter() {
             whileInView={{ opacity: 1, scale: 1 }}
             className="inline-flex items-center gap-2 px-4 py-1 rounded-full border border-white/10 bg-white/5 text-[10px] font-bold uppercase tracking-[0.3em] text-orange-500"
           >
-            The Elite Bulletin
+            The Rise & Lead Bulletin
           </motion.div>
           <motion.h2 
             initial={{ opacity: 0, y: 30 }}
